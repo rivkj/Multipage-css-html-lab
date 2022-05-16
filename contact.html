@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us for more Info</title>
+    <link rel="stylesheet" href="css/locations.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Need more info? Contact us!</h1>
+        <nav>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="other-places.html">Other Destinations</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </nav>
+      </header>
+      <main>
+        <h2>Get more info! Fill out our form below and let us know what you are interested in:</h2>
+        
+        <form>
+          <fieldset>
+            <legend>Contact Info:</legend>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+          </fieldset>
+
+          <label for="type">What is your travel preference?:</label>
+          <select id="type" name="type">
+            <option value="">Choose one</option>
+            <option value="mountains">Mountains</option>
+            <option value="piedmont">Piedmont</option>
+            <option value="coast">Coast</option>
+          </select><br>
+
+          <fieldset>
+            <legend>Destination info:</legend>
+        
+            <p>Destination you would like more information about:</p>
+            <input type="checkbox" id="asheville" name="asheville">
+            <label for="asheville">Asheville:</label>
+            <br>
+
+            <input type="checkbox" id="boone" name="boone"><label for="boone">Boone:</label>
+            <br>
+
+            <input type="checkbox" id="black-mountain" name="black-mountain"><label for="black-mountain">Black Mountain:</label><br>
+
+            <input type="checkbox" id="linville" name="linville"><label for="linville">Linville:</label><br>
+
+            <input type="checkbox" id="morganton" name="morganton"><label for="morganton">Morganton:</label><br>
+
+            <input type="checkbox" id="other" name="other"><label for="other">Other:</label><br>
+          </fieldset>
+          <textarea id="additional" rows="7" cols="50">Let us know if you would like additional information.
+          </textarea><br>
+
+          Would you like to subscribe to our monthly issue?:
+          <input type="radio" id="yes" name="subscribe" value="yes-subscribe">
+          <label for="yes">Yes</label>
+
+          <input type="radio" id="no" name="subscribe" value="no-subscribe">
+          <label for="no">No</label><br>
+
+          <input type="submit" value="Submit Form">
+
+        </form>
+
+      </main>
+      <footer>
+        <p>2022 &copy; NC Info</p>
+      </footer>
+    </div>
+  </body>
+</html>
